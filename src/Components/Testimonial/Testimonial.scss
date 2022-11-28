@@ -27,7 +27,7 @@
   }
 
   .right {
-    width: 569px;
+    width: 600px;
     height: 356px;
     .rightTest {
       position: relative;
@@ -93,15 +93,15 @@
 @media only screen and (max-width: 768px) {
   .left{
     h4{
-      margin-left: 50%;
+      margin-left: 70%;
     }
     h1{
-      margin-left: 40%;
+      margin-left: 60%;
       font-size: 35px !important;
     }
   }
   .right{
-    margin-left: 20%;
+    margin-left: 40%;
     .quote{
       width: 300px!important;
     }

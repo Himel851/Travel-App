@@ -40,16 +40,18 @@ const Trip = () => {
                 src={rightImg}
               />
               <Card.Body>
-                <Card.Title>Trip To Greece</Card.Title>
-                <Card.Text>14-29 June | by Robbin jhon</Card.Text>
+                <div >
+                <Card.Title className="rightText">Trip To Greece</Card.Title>
+                <Card.Text className="rightText">14-29 June | by Robbin jhon</Card.Text>
+                </div>
                 <div className="icon">
-                  <div>
+                  <div className="img">
                     <img src={leaf} alt="" />
                   </div>
-                  <div>
+                  <div className="img">
                     <img src={map} alt="" />
                   </div>
-                  <div>
+                  <div className="img">
                     <img src={send} alt="" />
                   </div>
                 </div>

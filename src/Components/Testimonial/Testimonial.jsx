@@ -27,7 +27,7 @@ const Testimonial = () => {
               Book Your Next Trip <br /> In 3 Easy Steps
             </h1>
           </Col>
-
+          
           <Slider {...settings} className="slider">
             {testData.map((item) => (
               <Col sm className="right">
