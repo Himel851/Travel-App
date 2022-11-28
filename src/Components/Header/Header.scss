@@ -1,0 +1,54 @@
+.navbar {
+  width: auto;
+  height: 90px;
+
+  .navMenu {
+    margin-right: 100px;
+    .list {
+      padding: 10px;
+      margin: 15px;
+      color: rgb(77, 74, 74) !important;
+      font-weight: bold;
+      .signUp {
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+    .dropDown {
+      color: rgb(77, 74, 74) !important;
+    }
+  }
+
+  .navImg{
+    img{
+      height: 30px;
+      width: auto;
+      margin: 0 300%;
+    }
+  }
+
+  
+}
+
+@media only screen and (max-width: 1399px){
+  .navbar{
+    .navImg{
+      img{
+        margin-left: 10%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .navbar{
+    .navMenu{
+      background-color: #000;
+      .list{
+        border: 1px solid #000;
+        color: #fff !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.category {
+  text-align: center;
+  margin-top: 8%;
+  .title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5e6282;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-family: "Volkhov";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183e;
+  }
+  .top {
+    .card {
+      height: 40vh;
+      width: 100%;
+      border-radius: 30px;
+      margin-top: 10vh;
+
+      .cardImg {
+        width: 92px;
+        height: 78px;
+        margin-top: 10%;
+      }
+
+      .cardTitle {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #1e1d4c;
+        margin-top: 5vh;
+      }
+      .cardDesc {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #5e6282;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .category {
+    .card {
+      .cardTitle {
+        font-size: 15px !important;
+      }
+      .cardDesc {
+        font-size: 10px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .card {
+    height: 50vh !important;
+    
+  }
+}
+@media only screen and (max-width: 779px) {
+  .category {
+    .title {
+      font-size: 25px;
+      margin-left: 300px;
+    }
+    h1 {
+      font-size: 40px;
+      margin-left: 300px;
+    }
+    .card {
+      width: 400px !important;
+      height: 350px !important;
+      margin-left: 250px;
+      .cardTitle {
+        font-size: 30px !important;
+      }
+      .cardDesc {
+        font-size: 20px !important;
+      }
+    }
+  }
+  
+}
